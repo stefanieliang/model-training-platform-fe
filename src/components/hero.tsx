@@ -5,7 +5,6 @@ interface PropsType {
     imgAlt: string;
     content: string;
 }
-
 export default function Home(props: PropsType) {
   return (
     <div className="h-screen relative">
@@ -18,9 +17,9 @@ export default function Home(props: PropsType) {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-gray-950"></div>
       </div>
-      <div className="flex justify-center pt-48">
+      {/* <div className="flex justify-center pt-48">
         <h1 className="text-6xl">{props.content}</h1>
-      </div>
+      </div> */}
     </div>
   );
 }
